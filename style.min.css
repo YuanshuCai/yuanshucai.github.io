@@ -10,7 +10,9 @@ body{
   display:flex;color:#323232;background-color:#fefefe;font-family:'Roboto',monospace;font-size:1.6em;font-weight:400;letter-spacing:.0625em;line-height:1.8em}@media only screen and (min-device-width:320px) and (max-device-width:480px){body{font-size:1.4em;line-height:1.6em}
 }
 a{
-  font-weight:700;color:#000;text-decoration:none}a:focus,a:hover{text-decoration:underline}p{margin:1.6rem 0 1.6rem 0}p a{font-weight:400;color:#000;text-decoration:underline;text-underline-position:under}p a:focus,p a:hover{color:#36c
+  font-weight:700;color:#000;text-decoration:none}a:focus,a:hover{text-decoration:underline}
+p{
+    margin:1.6rem 0 1.6rem 0}p a{font-weight:400;color:#000;text-decoration:underline;text-underline-position:under}p a:focus,p a:hover{color:#36c
 }
 h1,h2,h3,h4,h5,h6{
   color:#000;text-transform:uppercase;letter-spacing:.0625em;margin:3.2rem 0 1.6rem 0
