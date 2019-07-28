@@ -80,6 +80,6 @@ th,td{padding:1.6rem}table{border-collapse:collapse}table td,table th{border:2px
 .quoteAuthor{
     font-style: cursive;
 }
-#my_work_glossary{
+.workGlossary{
   list-style-type: none;
 }
