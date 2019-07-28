@@ -89,7 +89,8 @@ img{
     float:left
  }
 .quote{
-   font-style: italic; 
+    font-style: italic;
+    font-family: cursive;
 }
 .quoteAuthor{
     font-family: cursive;
