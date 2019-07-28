@@ -19,12 +19,13 @@ h1,h2,h3,h4,h5,h6{
   color:#000;text-transform:uppercase;letter-spacing:.0625em;margin:3.2rem 0 1.6rem 0
   }
 h1{
+  font-family:'Courier';
   font-size:3.2rem;
   line-height:3.2rem
 }
   @media only screen and (min-device-width:320px) and (max-device-width:480px){h1{font-size:2.8rem;line-height:2.8rem}}
 h2{
-  font-family:'Helvetica', Arial;
+  
   font-size:2.5rem;
   line-height:2.5rem
 }
@@ -55,6 +56,15 @@ th,td{padding:1.6rem}table{border-collapse:collapse}table td,table th{border:2px
 .container{margin:0 auto;max-width:120rem;width:100%;padding-left:2rem;padding-right:2rem}
 .navigation{height:6rem;width:100%}.navigation a{display:inline;font-size:1.6rem;text-transform:uppercase;line-height:6rem;letter-spacing:.1rem}@media only screen and (min-device-width:320px) and (max-device-width:768px){.navigation a{font-size:1.6rem}}.navigation ul{list-style:none;margin-bottom:0;margin-top:0}.navigation ul li{float:left;margin:0;position:relative}.navigation ul li a{margin-left:1rem;margin-right:1rem}@media only screen and (min-device-width:320px) and (max-device-width:768px){.navigation ul li{float:none !important}}@media only screen and (min-device-width:320px) and (max-device-width:768px){.navigation ul{visibility:hidden;opacity:0;max-height:0;z-index:5;top:5rem;right:0;width:100%;position:absolute;background-color:rgba(254,254,254,0.98);padding:0;border-bottom:solid 2px #e2dfe1;transition:opacity .25s,max-height .15s linear}}
 #menu-control{display:none}
+.navigation-title{
+  font-family:'Helvetica', Arial;
+}
+.navigation-link{
+  font-family:'Helvetica', Arial;
+}
+.navigation-item{
+  font-family:'Helvetica', Arial;
+}
 .btn-mobile{display:none}@media only screen and (min-device-width:320px) and (max-device-width:768px){.btn-mobile{display:block;font-size:2rem;color:black;cursor:pointer;margin-top:1.5rem}#menu-control:checked+label .btn-mobile{color:#e2dfe1}#menu-control:checked+label ul{visibility:visible;opacity:1;max-height:100rem}.navigation-item{position:relative}.mobile-menu-lang-separator-centered{padding-left:7rem;padding-right:7rem}.mobile-menu-lang-separator-full{padding-left:1.5rem;padding-right:1.5rem}.multilingual-separator{display:none}.align-left{text-align:left;padding-left:1rem}.align-right{text-align:right;padding-right:1rem}.align-center{text-align:center}}.content{flex:1;margin-top:1.6rem;margin-bottom:3.2rem}.content article header{margin-top:3.2rem;margin-bottom:3.2rem}.content article header h1,.content article header h2{margin:0}.content article header h2{margin-top:1rem;font-size:1.8rem;color:#323232}@media only screen and (min-device-width:320px) and (max-device-width:480px){.content article header h2{font-size:1.6rem}}
 .avatar img{
   width:20rem;height:auto;border-radius:50%
