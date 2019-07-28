@@ -85,4 +85,10 @@ img{
 }
 .float-left{
     float:left
-  }
+ }
+.quote{
+   font-style: italic; 
+}
+.quoteAuthor{
+    font-family: cursive;
+}
